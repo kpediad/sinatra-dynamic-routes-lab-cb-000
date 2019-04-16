@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
   get '/say/:number/:phrase' do
     params[:number]
-    params[:phrase]
+    #params[:phrase]
     #{}"skata"
   end
 
